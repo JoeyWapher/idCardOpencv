@@ -94,7 +94,7 @@
         if (rect.width > CardNumberRect.width && rect.width > rect.height * 6) {
             CardNumberRect = rect;
         }
-        if (rect.x > 60 && rect.y<120 && rect.height*2 < rect.width) {
+        if (rect.x > 100 && rect.y<100 && rect.height < rect.width) {
             NameNumberRect = rect;
         }
     }
