@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E60F7843EF33F7C8D6AF8D9 /* libPods-opencvIdCardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F448EED88CA7B5DF931CFDBF /* libPods-opencvIdCardUITests.a */; };
+		54F1938B0CE1360377281376 /* libPods-opencvIdCard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B250E72565AF75E3CBF2DCAF /* libPods-opencvIdCard.a */; };
+		B3CB96CFCFF6B664C3D1ADDC /* libPods-opencvIdCardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5953D4040D6285A85F69C82B /* libPods-opencvIdCardTests.a */; };
+		D4631E5D1EA4696200EAB729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4631E5C1EA4696200EAB729 /* main.m */; };
+		D4631E601EA4696200EAB729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4631E5F1EA4696200EAB729 /* AppDelegate.m */; };
+		D4631E631EA4696200EAB729 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4631E621EA4696200EAB729 /* ViewController.m */; };
+		D4631E681EA4696200EAB729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4631E671EA4696200EAB729 /* Assets.xcassets */; };
+		D4631E6B1EA4696200EAB729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4631E691EA4696200EAB729 /* LaunchScreen.storyboard */; };
+		D4631E761EA4696200EAB729 /* opencvIdCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4631E751EA4696200EAB729 /* opencvIdCardTests.m */; };
+		D4631E811EA4696200EAB729 /* opencvIdCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4631E801EA4696200EAB729 /* opencvIdCardUITests.m */; };
+		D4631E941EA469BD00EAB729 /* RecogizeCardManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4631E901EA469BD00EAB729 /* RecogizeCardManager.mm */; };
+		D4631EAA1EA46A1F00EAB729 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = D4631EA91EA46A1F00EAB729 /* tessdata */; };
+		D4631EAD1EA46C2F00EAB729 /* publicClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D4631EAC1EA46C2F00EAB729 /* publicClass.m */; };
+		D4631EAF1EA46E0000EAB729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4631EAE1EA46E0000EAB729 /* Main.storyboard */; };
+		D4631EB21EA46FC700EAB729 /* Imageprocess.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4631EB11EA46FC700EAB729 /* Imageprocess.mm */; };
+		D4631EB61EA4714700EAB729 /* photoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4631EB41EA4714700EAB729 /* photoViewController.m */; };
+		D4631EB71EA4714700EAB729 /* photoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4631EB51EA4714700EAB729 /* photoViewController.xib */; };
+		D4631EB91EA474F500EAB729 /* ic_idcard_img_default_front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4631EB81EA474F500EAB729 /* ic_idcard_img_default_front@2x.png */; };
+		D4631EBB1EA4751000EAB729 /* ic_idcard_skeleton_front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4631EBA1EA4751000EAB729 /* ic_idcard_skeleton_front@2x.png */; };
+		D4631EBD1EA4752500EAB729 /* ic_idcard_btn_shot_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4631EBC1EA4752500EAB729 /* ic_idcard_btn_shot_normal@2x.png */; };
+		D4631EBF1EA4753500EAB729 /* ic_idcard_btn_shot_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4631EBE1EA4753500EAB729 /* ic_idcard_btn_shot_pressed@2x.png */; };
+		D4631EC11EA4755600EAB729 /* ic_idcard_skeleton_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4631EC01EA4755600EAB729 /* ic_idcard_skeleton_preview@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4631E721EA4696200EAB729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4631E501EA4696200EAB729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4631E571EA4696200EAB729;
+			remoteInfo = opencvIdCard;
+		};
+		D4631E7D1EA4696200EAB729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4631E501EA4696200EAB729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4631E571EA4696200EAB729;
+			remoteInfo = opencvIdCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DBF1D29662C198A9F98EB71 /* Pods-opencvIdCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencvIdCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-opencvIdCardTests/Pods-opencvIdCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		577329D46BBF4E8FADDEDAA6 /* Pods-opencvIdCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencvIdCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-opencvIdCardTests/Pods-opencvIdCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		5953D4040D6285A85F69C82B /* libPods-opencvIdCardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-opencvIdCardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A950E89D909299439ECF4FE /* Pods-opencvIdCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencvIdCardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-opencvIdCardUITests/Pods-opencvIdCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B250E72565AF75E3CBF2DCAF /* libPods-opencvIdCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-opencvIdCard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE11005B142BEE609C1F1A7C /* Pods-opencvIdCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencvIdCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-opencvIdCard/Pods-opencvIdCard.release.xcconfig"; sourceTree = "<group>"; };
+		D4631E581EA4696200EAB729 /* opencvIdCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opencvIdCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4631E5C1EA4696200EAB729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4631E5E1EA4696200EAB729 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4631E5F1EA4696200EAB729 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4631E611EA4696200EAB729 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4631E621EA4696200EAB729 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4631E671EA4696200EAB729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4631E6A1EA4696200EAB729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4631E6C1EA4696200EAB729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4631E711EA4696200EAB729 /* opencvIdCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = opencvIdCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4631E751EA4696200EAB729 /* opencvIdCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opencvIdCardTests.m; sourceTree = "<group>"; };
+		D4631E771EA4696200EAB729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4631E7C1EA4696200EAB729 /* opencvIdCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = opencvIdCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4631E801EA4696200EAB729 /* opencvIdCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opencvIdCardUITests.m; sourceTree = "<group>"; };
+		D4631E821EA4696200EAB729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4631E8F1EA469BD00EAB729 /* RecogizeCardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecogizeCardManager.h; sourceTree = "<group>"; };
+		D4631E901EA469BD00EAB729 /* RecogizeCardManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RecogizeCardManager.mm; sourceTree = "<group>"; };
+		D4631EA91EA46A1F00EAB729 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		D4631EAB1EA46C2F00EAB729 /* publicClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = publicClass.h; sourceTree = "<group>"; };
+		D4631EAC1EA46C2F00EAB729 /* publicClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = publicClass.m; sourceTree = "<group>"; };
+		D4631EAE1EA46E0000EAB729 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D4631EB01EA46FC700EAB729 /* Imageprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imageprocess.h; sourceTree = "<group>"; };
+		D4631EB11EA46FC700EAB729 /* Imageprocess.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Imageprocess.mm; sourceTree = "<group>"; };
+		D4631EB31EA4714700EAB729 /* photoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = photoViewController.h; sourceTree = "<group>"; };
+		D4631EB41EA4714700EAB729 /* photoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = photoViewController.m; sourceTree = "<group>"; };
+		D4631EB51EA4714700EAB729 /* photoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = photoViewController.xib; sourceTree = "<group>"; };
+		D4631EB81EA474F500EAB729 /* ic_idcard_img_default_front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_idcard_img_default_front@2x.png"; sourceTree = "<group>"; };
+		D4631EBA1EA4751000EAB729 /* ic_idcard_skeleton_front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_idcard_skeleton_front@2x.png"; sourceTree = "<group>"; };
+		D4631EBC1EA4752500EAB729 /* ic_idcard_btn_shot_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_idcard_btn_shot_normal@2x.png"; sourceTree = "<group>"; };
+		D4631EBE1EA4753500EAB729 /* ic_idcard_btn_shot_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_idcard_btn_shot_pressed@2x.png"; sourceTree = "<group>"; };
+		D4631EC01EA4755600EAB729 /* ic_idcard_skeleton_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_idcard_skeleton_preview@2x.png"; sourceTree = "<group>"; };
+		D8AC0978744540862AF7C9AC /* Pods-opencvIdCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencvIdCardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-opencvIdCardUITests/Pods-opencvIdCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F448EED88CA7B5DF931CFDBF /* libPods-opencvIdCardUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-opencvIdCardUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB38C698CC821F0AF14E29F0 /* Pods-opencvIdCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opencvIdCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-opencvIdCard/Pods-opencvIdCard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4631E551EA4696200EAB729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F1938B0CE1360377281376 /* libPods-opencvIdCard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4631E6E1EA4696200EAB729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CB96CFCFF6B664C3D1ADDC /* libPods-opencvIdCardTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4631E791EA4696200EAB729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E60F7843EF33F7C8D6AF8D9 /* libPods-opencvIdCardUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D1493C74DD48A7D55EFA1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B250E72565AF75E3CBF2DCAF /* libPods-opencvIdCard.a */,
+				5953D4040D6285A85F69C82B /* libPods-opencvIdCardTests.a */,
+				F448EED88CA7B5DF931CFDBF /* libPods-opencvIdCardUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B882D04252C7886B1ECCF2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB38C698CC821F0AF14E29F0 /* Pods-opencvIdCard.debug.xcconfig */,
+				BE11005B142BEE609C1F1A7C /* Pods-opencvIdCard.release.xcconfig */,
+				2DBF1D29662C198A9F98EB71 /* Pods-opencvIdCardTests.debug.xcconfig */,
+				577329D46BBF4E8FADDEDAA6 /* Pods-opencvIdCardTests.release.xcconfig */,
+				8A950E89D909299439ECF4FE /* Pods-opencvIdCardUITests.debug.xcconfig */,
+				D8AC0978744540862AF7C9AC /* Pods-opencvIdCardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4631E4F1EA4696200EAB729 = {
+			isa = PBXGroup;
+			children = (
+				D4631E5A1EA4696200EAB729 /* opencvIdCard */,
+				D4631E741EA4696200EAB729 /* opencvIdCardTests */,
+				D4631E7F1EA4696200EAB729 /* opencvIdCardUITests */,
+				D4631E591EA4696200EAB729 /* Products */,
+				5B882D04252C7886B1ECCF2E /* Pods */,
+				25D1493C74DD48A7D55EFA1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4631E591EA4696200EAB729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4631E581EA4696200EAB729 /* opencvIdCard.app */,
+				D4631E711EA4696200EAB729 /* opencvIdCardTests.xctest */,
+				D4631E7C1EA4696200EAB729 /* opencvIdCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4631E5A1EA4696200EAB729 /* opencvIdCard */ = {
+			isa = PBXGroup;
+			children = (
+				D4631E8E1EA4699400EAB729 /* idCard */,
+				D4631E5E1EA4696200EAB729 /* AppDelegate.h */,
+				D4631E5F1EA4696200EAB729 /* AppDelegate.m */,
+				D4631E611EA4696200EAB729 /* ViewController.h */,
+				D4631E621EA4696200EAB729 /* ViewController.m */,
+				D4631EB31EA4714700EAB729 /* photoViewController.h */,
+				D4631EB41EA4714700EAB729 /* photoViewController.m */,
+				D4631EB51EA4714700EAB729 /* photoViewController.xib */,
+				D4631EAE1EA46E0000EAB729 /* Main.storyboard */,
+				D4631E671EA4696200EAB729 /* Assets.xcassets */,
+				D4631E691EA4696200EAB729 /* LaunchScreen.storyboard */,
+				D4631E6C1EA4696200EAB729 /* Info.plist */,
+				D4631E5B1EA4696200EAB729 /* Supporting Files */,
+			);
+			path = opencvIdCard;
+			sourceTree = "<group>";
+		};
+		D4631E5B1EA4696200EAB729 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4631E5C1EA4696200EAB729 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4631E741EA4696200EAB729 /* opencvIdCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4631E751EA4696200EAB729 /* opencvIdCardTests.m */,
+				D4631E771EA4696200EAB729 /* Info.plist */,
+			);
+			path = opencvIdCardTests;
+			sourceTree = "<group>";
+		};
+		D4631E7F1EA4696200EAB729 /* opencvIdCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4631E801EA4696200EAB729 /* opencvIdCardUITests.m */,
+				D4631E821EA4696200EAB729 /* Info.plist */,
+			);
+			path = opencvIdCardUITests;
+			sourceTree = "<group>";
+		};
+		D4631E8E1EA4699400EAB729 /* idCard */ = {
+			isa = PBXGroup;
+			children = (
+				D4631EC01EA4755600EAB729 /* ic_idcard_skeleton_preview@2x.png */,
+				D4631EBE1EA4753500EAB729 /* ic_idcard_btn_shot_pressed@2x.png */,
+				D4631EBC1EA4752500EAB729 /* ic_idcard_btn_shot_normal@2x.png */,
+				D4631EBA1EA4751000EAB729 /* ic_idcard_skeleton_front@2x.png */,
+				D4631EB81EA474F500EAB729 /* ic_idcard_img_default_front@2x.png */,
+				D4631EAB1EA46C2F00EAB729 /* publicClass.h */,
+				D4631EAC1EA46C2F00EAB729 /* publicClass.m */,
+				D4631EA91EA46A1F00EAB729 /* tessdata */,
+				D4631E8F1EA469BD00EAB729 /* RecogizeCardManager.h */,
+				D4631E901EA469BD00EAB729 /* RecogizeCardManager.mm */,
+				D4631EB01EA46FC700EAB729 /* Imageprocess.h */,
+				D4631EB11EA46FC700EAB729 /* Imageprocess.mm */,
+			);
+			name = idCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4631E571EA4696200EAB729 /* opencvIdCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4631E851EA4696200EAB729 /* Build configuration list for PBXNativeTarget "opencvIdCard" */;
+			buildPhases = (
+				27281F77E53827D5CED19F83 /* [CP] Check Pods Manifest.lock */,
+				D4631E541EA4696200EAB729 /* Sources */,
+				D4631E551EA4696200EAB729 /* Frameworks */,
+				D4631E561EA4696200EAB729 /* Resources */,
+				CF3171E252BE907B3440347B /* [CP] Embed Pods Frameworks */,
+				C22F3FCAF3008D3342A10BF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opencvIdCard;
+			productName = opencvIdCard;
+			productReference = D4631E581EA4696200EAB729 /* opencvIdCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4631E701EA4696200EAB729 /* opencvIdCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4631E881EA4696200EAB729 /* Build configuration list for PBXNativeTarget "opencvIdCardTests" */;
+			buildPhases = (
+				0D8E54D0752CE99D95FEFA8B /* [CP] Check Pods Manifest.lock */,
+				D4631E6D1EA4696200EAB729 /* Sources */,
+				D4631E6E1EA4696200EAB729 /* Frameworks */,
+				D4631E6F1EA4696200EAB729 /* Resources */,
+				B479104BCA5F641C8A5779C6 /* [CP] Embed Pods Frameworks */,
+				40F52EC5D33B64C6A9C29AF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4631E731EA4696200EAB729 /* PBXTargetDependency */,
+			);
+			name = opencvIdCardTests;
+			productName = opencvIdCardTests;
+			productReference = D4631E711EA4696200EAB729 /* opencvIdCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4631E7B1EA4696200EAB729 /* opencvIdCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4631E8B1EA4696200EAB729 /* Build configuration list for PBXNativeTarget "opencvIdCardUITests" */;
+			buildPhases = (
+				4BAB20925ECBD29C2BC05B0B /* [CP] Check Pods Manifest.lock */,
+				D4631E781EA4696200EAB729 /* Sources */,
+				D4631E791EA4696200EAB729 /* Frameworks */,
+				D4631E7A1EA4696200EAB729 /* Resources */,
+				D840A8AA497EDF9E915EADFA /* [CP] Embed Pods Frameworks */,
+				D93861A64CDDE6BFADD49873 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4631E7E1EA4696200EAB729 /* PBXTargetDependency */,
+			);
+			name = opencvIdCardUITests;
+			productName = opencvIdCardUITests;
+			productReference = D4631E7C1EA4696200EAB729 /* opencvIdCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4631E501EA4696200EAB729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Joey;
+				TargetAttributes = {
+					D4631E571EA4696200EAB729 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					D4631E701EA4696200EAB729 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2D89ZKWB45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4631E571EA4696200EAB729;
+					};
+					D4631E7B1EA4696200EAB729 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2D89ZKWB45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4631E571EA4696200EAB729;
+					};
+				};
+			};
+			buildConfigurationList = D4631E531EA4696200EAB729 /* Build configuration list for PBXProject "opencvIdCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4631E4F1EA4696200EAB729;
+			productRefGroup = D4631E591EA4696200EAB729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4631E571EA4696200EAB729 /* opencvIdCard */,
+				D4631E701EA4696200EAB729 /* opencvIdCardTests */,
+				D4631E7B1EA4696200EAB729 /* opencvIdCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4631E561EA4696200EAB729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4631E6B1EA4696200EAB729 /* LaunchScreen.storyboard in Resources */,
+				D4631EC11EA4755600EAB729 /* ic_idcard_skeleton_preview@2x.png in Resources */,
+				D4631EAA1EA46A1F00EAB729 /* tessdata in Resources */,
+				D4631EBF1EA4753500EAB729 /* ic_idcard_btn_shot_pressed@2x.png in Resources */,
+				D4631E681EA4696200EAB729 /* Assets.xcassets in Resources */,
+				D4631EB91EA474F500EAB729 /* ic_idcard_img_default_front@2x.png in Resources */,
+				D4631EBB1EA4751000EAB729 /* ic_idcard_skeleton_front@2x.png in Resources */,
+				D4631EB71EA4714700EAB729 /* photoViewController.xib in Resources */,
+				D4631EBD1EA4752500EAB729 /* ic_idcard_btn_shot_normal@2x.png in Resources */,
+				D4631EAF1EA46E0000EAB729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4631E6F1EA4696200EAB729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4631E7A1EA4696200EAB729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D8E54D0752CE99D95FEFA8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27281F77E53827D5CED19F83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40F52EC5D33B64C6A9C29AF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencvIdCardTests/Pods-opencvIdCardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BAB20925ECBD29C2BC05B0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B479104BCA5F641C8A5779C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencvIdCardTests/Pods-opencvIdCardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C22F3FCAF3008D3342A10BF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencvIdCard/Pods-opencvIdCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3171E252BE907B3440347B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencvIdCard/Pods-opencvIdCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D840A8AA497EDF9E915EADFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencvIdCardUITests/Pods-opencvIdCardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93861A64CDDE6BFADD49873 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-opencvIdCardUITests/Pods-opencvIdCardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4631E541EA4696200EAB729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4631EB61EA4714700EAB729 /* photoViewController.m in Sources */,
+				D4631E631EA4696200EAB729 /* ViewController.m in Sources */,
+				D4631E601EA4696200EAB729 /* AppDelegate.m in Sources */,
+				D4631E5D1EA4696200EAB729 /* main.m in Sources */,
+				D4631EB21EA46FC700EAB729 /* Imageprocess.mm in Sources */,
+				D4631EAD1EA46C2F00EAB729 /* publicClass.m in Sources */,
+				D4631E941EA469BD00EAB729 /* RecogizeCardManager.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4631E6D1EA4696200EAB729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4631E761EA4696200EAB729 /* opencvIdCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4631E781EA4696200EAB729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4631E811EA4696200EAB729 /* opencvIdCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4631E731EA4696200EAB729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4631E571EA4696200EAB729 /* opencvIdCard */;
+			targetProxy = D4631E721EA4696200EAB729 /* PBXContainerItemProxy */;
+		};
+		D4631E7E1EA4696200EAB729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4631E571EA4696200EAB729 /* opencvIdCard */;
+			targetProxy = D4631E7D1EA4696200EAB729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4631E691EA4696200EAB729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4631E6A1EA4696200EAB729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4631E831EA4696200EAB729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4631E841EA4696200EAB729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4631E861EA4696200EAB729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB38C698CC821F0AF14E29F0 /* Pods-opencvIdCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = opencvIdCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4631E871EA4696200EAB729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE11005B142BEE609C1F1A7C /* Pods-opencvIdCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = opencvIdCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4631E891EA4696200EAB729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBF1D29662C198A9F98EB71 /* Pods-opencvIdCardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2D89ZKWB45;
+				INFOPLIST_FILE = opencvIdCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maizi.opencvIdCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/opencvIdCard.app/opencvIdCard";
+			};
+			name = Debug;
+		};
+		D4631E8A1EA4696200EAB729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577329D46BBF4E8FADDEDAA6 /* Pods-opencvIdCardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2D89ZKWB45;
+				INFOPLIST_FILE = opencvIdCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maizi.opencvIdCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/opencvIdCard.app/opencvIdCard";
+			};
+			name = Release;
+		};
+		D4631E8C1EA4696200EAB729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A950E89D909299439ECF4FE /* Pods-opencvIdCardUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2D89ZKWB45;
+				INFOPLIST_FILE = opencvIdCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maizi.opencvIdCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = opencvIdCard;
+			};
+			name = Debug;
+		};
+		D4631E8D1EA4696200EAB729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8AC0978744540862AF7C9AC /* Pods-opencvIdCardUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2D89ZKWB45;
+				INFOPLIST_FILE = opencvIdCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maizi.opencvIdCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = opencvIdCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4631E531EA4696200EAB729 /* Build configuration list for PBXProject "opencvIdCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4631E831EA4696200EAB729 /* Debug */,
+				D4631E841EA4696200EAB729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4631E851EA4696200EAB729 /* Build configuration list for PBXNativeTarget "opencvIdCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4631E861EA4696200EAB729 /* Debug */,
+				D4631E871EA4696200EAB729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4631E881EA4696200EAB729 /* Build configuration list for PBXNativeTarget "opencvIdCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4631E891EA4696200EAB729 /* Debug */,
+				D4631E8A1EA4696200EAB729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4631E8B1EA4696200EAB729 /* Build configuration list for PBXNativeTarget "opencvIdCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4631E8C1EA4696200EAB729 /* Debug */,
+				D4631E8D1EA4696200EAB729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4631E501EA4696200EAB729 /* Project object */;
+}
